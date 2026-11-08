@@ -1,0 +1,23 @@
+# Credenciais — nunca versionar
+wordpress/wp-config.php
+
+# Uploads de mídia (grandes, não pertencem ao código)
+wordpress/wp-content/uploads/
+
+# Arquivos de upgrade temporários
+wordpress/wp-content/upgrade/
+
+# Cache de plugins
+wordpress/wp-content/cache/
+
+# Logs
+*.log
+error_log
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
